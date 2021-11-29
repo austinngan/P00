@@ -9,11 +9,11 @@ ul.nav {
     overflow: hidden;
     background-color: #333;
 }
-
+/*  edited */
 li.nav {
     float: right;
 }
-
+/*  edited */
 li a.nav{
     display: inline;
     color: #964B00;
@@ -96,4 +96,11 @@ div.story {
 
 .h{
 	color:#544343;
+}
+
+/* edited */
+.login {
+   background-image: url("turkey.jpeg"); 
+   max-width: 100%;
+   height: auto;
 }
