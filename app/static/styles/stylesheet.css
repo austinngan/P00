@@ -4,9 +4,7 @@ body {
 
 ul.nav {
     list-style-type: none;
-    margin: 0;
     padding: 50px;
-    overflow: hidden;
     background-color: #333;
 }
 /*  edited */
@@ -23,25 +21,18 @@ li a.nav{
 }
 
 li a.nav:hover {
-    background-color: #111;
+    color: #0000FF;
 }
 
 ul.story {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
 li.story {
-    border: 1px ;
-    padding: 10px 0px;
-    float: none;
-    background-color: azure;
-    margin-top: 10px;
-    width: 250px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+   border-color: blueviolet;
+   background-color: pink;
+   border: dashed;
 }
 
 li a.story {
@@ -52,46 +43,30 @@ li a.story {
 }
 
 li.story:hover {
-    background-color: aquamarine;
+    border-color: firebrick;
 }
 
 li.search {
-    float:right;
-    margin-right: 10px;
+    float:left;
 }
 input.search {
-    padding: 2px 3px;
-    text-decoration: none;
-    margin-top: 12px;
+    margin-top: 1px;
+    background-color: blue;
+    color:  white;
 }
 
 div.story {
-    float:left;
-}
-
-.story-text {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+   text-align: center;
 }
 
 .newstory {
-    color: black;
-    text-decoration: none;
-    size: fit-content;
-    border: 1px solid black;
-    border-radius: 80%;
-    padding: 20px;
-    background-color: bisque;
+   text-decoration-style: dotted;
 }
 
-.newstory:hover {
-    background-color: moccasin;
-}
 
 .auth {
 	color: #BDC667;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-top: 10vh;
 }
 
 .h{
